@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <meta name="description" content="마포 셔츠룸 AI트렌드 상세 정보 — 위치, 가격, 시스템, 리얼 후기까지. 마포구에서 가장 핫한 AI 기반 셔츠룸, 전화 010-6279-0862로 지번 예약. 야간 라이브, 스트리트 감성 가득한 새로운 트렌드의 모든 것.">
+    <meta name="keywords" content="마포 셔츠룸, 마포 AI 트렌드 정보, 마포 셔츠룸 위치, 마포 셔츠룸 가격, 마포구 셔츠룸 시스템, AI 셔츠룸 정보, 마포 셔츠룸 후기">
+    <meta property="og:title" content="마포 셔츠룸 AI트렌드 | 정보 & 가이드">
+    <meta property="og:description" content="마포 셔츠룸, AI 감성으로 재해석한 거친 셔츠룸의 모든 정보. 전화 010-6279-0862 예약. 위치, 가격, 시스템 한눈에 확인.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/mapo-shirts-info.jpg">
+    <meta property="og:url" content="https://example.com/mapo-shirts-info">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>마포 셔츠룸 AI트렌드 | 정보 & 가이드</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Courier New', 'Nanum Gothic', monospace;
+            background: #2a2a2a;
+            color: #d4d4d4;
+            min-height: 100vh;
+            line-height: 1.6;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(255,255,255,0.02) 2px,
+                rgba(255,255,255,0.02) 4px
+            );
+            pointer-events: none;
+            z-index: 1;
+        }
+        a {
+            color: #ff6b35;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            color: #ffaa00;
+            border-bottom-color: #ff6b35;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-size: 2.8rem;
+            line-height: 1.1;
+            color: #ff6b35;
+            text-shadow: 4px 4px 0 #1a1a1a;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #ffaa00;
+            border-left: 6px solid #ff6b35;
+            padding-left: 1rem;
+            margin: 2rem 0 1.5rem;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+        header {
+            background: #1a1a1a;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #ff6b35;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #ff6b35;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+        .logo span {
+            color: #d4d4d4;
+            font-size: 0.9rem;
+            display: block;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        nav a {
+            color: #d4d4d4;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 0.3rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: #ffaa00;
+            border-bottom-color: #ff6b35;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+        .hamburger span {
+            width: 30px;
+            height: 3px;
+            background: #ff6b35;
+            transition: all 0.3s;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 2;
+        }
+        .hero {
+            background: #1a1a1a;
+            padding: 3rem 2rem;
+            border: 4px solid #ff6b35;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        .hero::after {
+            content: '▼ INFO';
+            position: absolute;
+            bottom: -1.5rem;
+            right: 2rem;
+            background: #ff6b35;
+            color: #1a1a1a;
+            padding: 0.3rem 1rem;
+            font-weight: 900;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .info-card {
+            background: #1a1a1a;
+            border: 3px solid #333;
+            padding: 1.5rem;
+            transition: border-color 0.3s;
+        }
+        .info-card:hover {
+            border-color: #ff6b35;
+        }
+        .info-card h3 {
+            color: #ffaa00;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .info-card .highlight {
+            color: #ff6b35;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        .tel-link {
+            display: inline-block;
+            background: #ff6b35;
+            color: #1a1a1a;
+            padding: 0.8rem 2rem;
+            font-weight: 900;
+            font-size: 1.3rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 1rem;
+        }
+        .tel-link:hover {
+            background: #ffaa00;
+            transform: scale(1.02);
+        }
+        .faq-item {
+            background: #1a1a1a;
+            border: 2px solid #333;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .faq-item h4 {
+            color: #ffaa00;
+            font-size: 1.1rem;
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+        }
+        .faq-item p {
+            color: #b0b0b0;
+            font-size: 0.95rem;
+        }
+        .review-block {
+            background: #1a1a1a;
+            border-left: 6px solid #ff6b35;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .review-block .name {
+            color: #ffaa00;
+            font-weight: 700;
+        }
+        .review-block .stars {
+            color: #ff6b35;
+            letter-spacing: 3px;
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+            .hamburger {
+                display: flex;
+            }
+            nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #1a1a1a;
+                flex-direction: column;
+                padding: 1rem;
+                border-bottom: 4px solid #ff6b35;
+            }
+            nav.active {
+                display: flex;
+            }
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .container {
+                padding: 1rem;
+            }
+            .hero {
+                padding: 2rem 1rem;
+            }
+        }
+        footer {
+            background: #1a1a1a;
+            border-top: 4px solid #ff6b35;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        footer p {
+            font-size: 0.85rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            MAPO SHIRTS
+            <span>AI TREND · STREET BRUTALIST</span>
+        </div>
+        <nav id="mainNav">
+            <a href="/">홈</a>
+            <a href="/info">정보</a>
+            <a href="/review">리뷰</a>
+            <a href="/gallery">갤러리</a>
+            <a href="/contact">연락처</a>
+        </nav>
+        <div class="hamburger" onclick="toggleNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h1>마포 셔츠룸<br>AI트렌드 정보</h1>
+            <p>야, 드디어 왔구나. 여기 마포 셔츠룸 AI트렌드에 대한 모든 정보를 다 모아놨어. 위치부터 가격, 시스템까지 — 궁금한 거 다 물어봐도 돼. 형이 다 알려줄게.</p>
+            <p>사실 처음엔 나도 "AI 셔츠룸이 뭐야?" 싶었거든. 근데 직접 와보니까 완전 다른 세상이더라. 거친 콘크리트 벽에 비트박스 울리는 공간, 거기서 AI랑 매칭되는 경험 — 말로는 설명이 안 돼. 직접 느껴봐야 안다니까.</p>
+            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
+        </div>
+
+        <h2>📍 위치 & 오시는 길</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>주소</h3>
+                <p>서울 마포구 와우산로 29길 12-3<br>지번: 서교동 447-12</p>
+                <p class="highlight">합정역 2번 출구에서 도보 7분</p>
+                <p>홍대입구역에서도 걸어올 수 있어 — 10분 정도 걸려. 골목 사이에 있어서 처음엔 좀 헤맬 수도 있는데, 네이버 지도에 "마포 셔츠룸 AI트렌드" 검색하면 바로 나와.</p>
+            </div>
+            <div class="info-card">
+                <h3>주차 정보</h3>
+                <p>건물 뒤편에 전용 주차장 3대 가능<br>만차 시 인근 공영주차장 이용</p>
+                <p class="highlight">주차비 무료 (선착순)</p>
+                <p>내 차 끌고 오는 형들이 많아졌어. 근데 주말엔 자리 없을 확률 70% — 그냥 지하철 타고 오는 게 맘 편해. 나도 처음에 차 가져왔다가 빙글빙글 돌았던 기억이 있네.</p>
+            </div>
+        </div>
+
+        <h2>💸 가격 & 이용권</h2>
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>기본 이용</h3>
+                <p>30분 — 50,000원<br>1시간 — 90,000원</p>
+                <p class="highlight">첫 방문 고객 20% 할인</p>
+                <p>형, 첫 방문이면 무조건 1시간짜리로 가. 30분은 맛보기에 불과해. 진짜 재미는 1시간부터 시작이야. AI 매칭이 시간이 지날수록 더 정교해져서 — 처음엔 좀 어색한데 20분쯤 지나면 "와 이게 맞네" 싶어짐.</p>
+            </div>
+            <div class="info-card">
+                <h3>프리미엄 패키지</h3>
+                <p>2시간 — 160,000원<br>VIP (4시간) — 300,000원</p>
+                <p class="highlight">VIP는 무제한 음료 + 스낵</p>
+                <p>내가 제일 추천하는 건 2시간짜리야. 가성비 갑이거든. VIP는 진짜 돈 좀 있는 형들이나 친구들끼리 와서 놀 때 좋아. 음료랑 스낵이 무한이라서 — 맥주도 있어. ㅋㅋ</p>
+            </div>
+        </div>
+
+        <h2>🤖 AI 시스템 설명</h2>
+        <div class="info-card" style="margin-bottom: 2rem;">
+            <h3>어떻게 돌아가나?</h3>
+            <p>들어가면 먼저 간단한 취향 설문을 해. 음악 취향, 분위기 선호도, 심지어 "오늘 기분 어때?" 같은 질문도 있어. 그럼 AI가 실시간으로 분석해서 최적의 매칭을 해주는 거지.</p>
+            <p>처음에는 "AI가 내 취향을 어떻게 알아?" 싶었는데, 진짜 신기하더라. 내가 좋아하는 힙합 플레이리스트가 나오고, 조명 색깔도 내 기분에 맞춰서 변해. 한마디로 — 내 방 같은 느낌? 근데 더럽진 않고 ㅋㅋㅋ</p>
+            <p class="highlight">AI 매칭 정확도 94% — 유저 리뷰 기준</p>
+        </div>
+
+        <h2>🗣️ 생생한 리뷰</h2>
+        <div class="review-block">
+            <p class="stars">★★★★★</p>
+            <p>"와 진짜 미쳤다. 친구들이 추천해서 왔는데, 여기 분위기가 그냥 미술관 같아. AI가 내가 좋아할 노래 틀어주는데 — 완전 내 스타일이었음. 다음 주에 또 올 예정."</p>
+            <p class="name">— 홍대사는김씨 (28, 남)</p>
+        </div>
+        <div class="review-block">
+            <p class="stars">★★★★★</p>
+            <p>"처음 가봤는데 너무 좋았어요. 직원분들도 친절하고, 공간이 엄청 감각적이에요. AI 시스템이 생각보다 진짜 똑똑해서 놀랐어요. 가격도 합리적이고! 강추합니다."</p>
+            <p class="name">— 마포토박이 (32, 여)</p>
+        </div>
+        <div class="review-block">
+            <p class="stars">★★★★☆</p>
+            <p>"별 하나 뺀 이유는 주차가 힘들어서. 근데 그거 빼면 완벽해. 친구들이랑 야간에 갔는데 라이브 비트에 AI 조명이랑 매칭되니까 — 클럽 온 기분. 담엔 차 말고 지하철 타고 올게요 ㅋㅋ"</p>
+            <p class="name">— 주차쟁이 (26, 남)</p>
+        </div>
+
+        <h2>❓ 자주 묻는 질문</h2>
+        <div class="faq-item">
+            <h4>Q: 예약은 꼭 해야 하나요?</h4>
+            <p>워크인도 가능한데, 주말에는 거의 예약제로만 운영돼. 전화 010-6279-0862로 지번 예약하는 게 가장 확실해. 문자
+</body>
+</html>
