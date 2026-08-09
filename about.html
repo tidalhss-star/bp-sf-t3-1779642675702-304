@@ -1,305 +1,303 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <meta name="description" content="마포 셔츠룸 AI트렌드 상세 정보 — 위치, 가격, 시스템, 리얼 후기까지. 마포구에서 가장 핫한 AI 기반 셔츠룸, 전화 010-6279-0862로 지번 예약. 야간 라이브, 스트리트 감성 가득한 새로운 트렌드의 모든 것.">
-    <meta name="keywords" content="마포 셔츠룸, 마포 AI 트렌드 정보, 마포 셔츠룸 위치, 마포 셔츠룸 가격, 마포구 셔츠룸 시스템, AI 셔츠룸 정보, 마포 셔츠룸 후기">
-    <meta property="og:title" content="마포 셔츠룸 AI트렌드 | 정보 & 가이드">
-    <meta property="og:description" content="마포 셔츠룸, AI 감성으로 재해석한 거친 셔츠룸의 모든 정보. 전화 010-6279-0862 예약. 위치, 가격, 시스템 한눈에 확인.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://example.com/mapo-shirts-info.jpg">
-    <meta property="og:url" content="https://sf-t3-1779642675702-304.maphoshirts.xyz/about.html">
-    <meta name="twitter:card" content="summary_large_image">
-    <title>마포 셔츠룸 AI트렌드 | 정보 & 가이드</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Courier New', 'Nanum Gothic', monospace;
-            background: #2a2a2a;
-            color: #d4d4d4;
-            min-height: 100vh;
-            line-height: 1.6;
-            position: relative;
-        }
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent,
-                transparent 2px,
-                rgba(255,255,255,0.02) 2px,
-                rgba(255,255,255,0.02) 4px
-            );
-            pointer-events: none;
-            z-index: 1;
-        }
-        a {
-            color: #ff6b35;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s ease;
-        }
-        a:hover {
-            color: #ffaa00;
-            border-bottom-color: #ff6b35;
-        }
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            letter-spacing: -0.5px;
-            text-transform: uppercase;
-        }
-        h1 {
-            font-size: 2.8rem;
-            line-height: 1.1;
-            color: #ff6b35;
-            text-shadow: 4px 4px 0 #1a1a1a;
-            margin-bottom: 1rem;
-        }
-        h2 {
-            font-size: 2rem;
-            color: #ffaa00;
-            border-left: 6px solid #ff6b35;
-            padding-left: 1rem;
-            margin: 2rem 0 1.5rem;
-        }
-        p {
-            margin-bottom: 1.2rem;
-            font-size: 1.05rem;
-        }
-        header {
-            background: #1a1a1a;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 4px solid #ff6b35;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 900;
-            color: #ff6b35;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-        }
-        .logo span {
-            color: #d4d4d4;
-            font-size: 0.9rem;
-            display: block;
-            letter-spacing: 2px;
-        }
-        nav {
-            display: flex;
-            gap: 1.5rem;
-            align-items: center;
-        }
-        nav a {
-            color: #d4d4d4;
-            font-size: 0.95rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 0.3rem 0;
-            border-bottom: 2px solid transparent;
-        }
-        nav a:hover {
-            color: #ffaa00;
-            border-bottom-color: #ff6b35;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-        }
-        .hamburger span {
-            width: 30px;
-            height: 3px;
-            background: #ff6b35;
-            transition: all 0.3s;
-        }
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 2rem;
-            position: relative;
-            z-index: 2;
-        }
-        .hero {
-            background: #1a1a1a;
-            padding: 3rem 2rem;
-            border: 4px solid #ff6b35;
-            margin-bottom: 3rem;
-            position: relative;
-        }
-        .hero::after {
-            content: '▼ INFO';
-            position: absolute;
-            bottom: -1.5rem;
-            right: 2rem;
-            background: #ff6b35;
-            color: #1a1a1a;
-            padding: 0.3rem 1rem;
-            font-weight: 900;
-            font-size: 0.8rem;
-            letter-spacing: 2px;
-        }
-        .info-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-        .info-card {
-            background: #1a1a1a;
-            border: 3px solid #333;
-            padding: 1.5rem;
-            transition: border-color 0.3s;
-        }
-        .info-card:hover {
-            border-color: #ff6b35;
-        }
-        .info-card h3 {
-            color: #ffaa00;
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
-        }
-        .info-card .highlight {
-            color: #ff6b35;
-            font-weight: 700;
-            font-size: 1.2rem;
-        }
-        .tel-link {
-            display: inline-block;
-            background: #ff6b35;
-            color: #1a1a1a;
-            padding: 0.8rem 2rem;
-            font-weight: 900;
-            font-size: 1.3rem;
-            border: none;
-            cursor: pointer;
-            transition: all 0.2s;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-top: 1rem;
-        }
-        .tel-link:hover {
-            background: #ffaa00;
-            transform: scale(1.02);
-        }
-        .faq-item {
-            background: #1a1a1a;
-            border: 2px solid #333;
-            padding: 1.2rem;
-            margin-bottom: 1rem;
-        }
-        .faq-item h4 {
-            color: #ffaa00;
-            font-size: 1.1rem;
-            cursor: pointer;
-            margin-bottom: 0.5rem;
-        }
-        .faq-item p {
-            color: #b0b0b0;
-            font-size: 0.95rem;
-        }
-        .review-block {
-            background: #1a1a1a;
-            border-left: 6px solid #ff6b35;
-            padding: 1.5rem;
-            margin: 1.5rem 0;
-        }
-        .review-block .name {
-            color: #ffaa00;
-            font-weight: 700;
-        }
-        .review-block .stars {
-            color: #ff6b35;
-            letter-spacing: 3px;
-        }
-        @media (max-width: 768px) {
-            header {
-                padding: 1rem;
-            }
-            .hamburger {
-                display: flex;
-            }
-            nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: #1a1a1a;
-                flex-direction: column;
-                padding: 1rem;
-                border-bottom: 4px solid #ff6b35;
-            }
-            nav.active {
-                display: flex;
-            }
-            .info-grid {
-                grid-template-columns: 1fr;
-            }
-            h1 {
-                font-size: 2rem;
-            }
-            .container {
-                padding: 1rem;
-            }
-            .hero {
-                padding: 2rem 1rem;
-            }
-        }
-        footer {
-            background: #1a1a1a;
-            border-top: 4px solid #ff6b35;
-            padding: 2rem;
-            text-align: center;
-            margin-top: 3rem;
-        }
-        footer p {
-            font-size: 0.85rem;
-            color: #666;
-        }
-    </style>
-  <link rel="canonical" href="https://sf-t3-1779642675702-304.maphoshirts.xyz/about.html">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="마포 셔츠룸 AI트렌드 상세 정보 — 위치, 가격, 시스템, 리얼 후기까지. 야간 라이브, 스트리트 감성 가득한 새로운 트렌드의 모든 것.">
+ <meta name="keywords" content="마포 셔츠룸, 마포 AI 트렌드 정보, 마포 셔츠룸 위치, 마포 셔츠룸 가격, 마포구 셔츠룸 시스템, AI 셔츠룸 정보, 마포 셔츠룸 후기">
+ <meta property="og:title" content="마포 셔츠룸 AI트렌드 | 정보 &amp; 가이드">
+ <meta property="og:description" content="마포 셔츠룸 AI트렌드 상세 정보 — 위치, 가격, 시스템, 리얼 후기까지. 야간 라이브, 스트리트 감성 가득한 새로운 트렌드의 모든 것.">
+ <meta property="og:type" content="website">
+ <meta property="og:image" content="https://example.com/mapo-shirts-info.jpg">
+ <meta property="og:url" content="https://sf-t3-1779642675702-304.maphoshirts.xyz/about.html">
+ <meta name="twitter:card" content="summary">
+ <title>마포 셔츠룸 AI트렌드 | 정보 & 가이드</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: 'Courier New', 'Nanum Gothic', monospace;
+ background: #2a2a2a;
+ color: #d4d4d4;
+ min-height: 100vh;
+ line-height: 1.6;
+ position: relative;
+ }
+ body::before {
+ content: '';
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: repeating-linear-gradient(
+ 0deg,
+ transparent,
+ transparent 2px,
+ rgba(255,255,255,0.02) 2px,
+ rgba(255,255,255,0.02) 4px
+ );
+ pointer-events: none;
+ z-index: 1;
+ }
+ a {
+ color: #ff6b35;
+ text-decoration: none;
+ border-bottom: 2px solid transparent;
+ transition: all 0.2s ease;
+ }
+ a:hover {
+ color: #ffaa00;
+ border-bottom-color: #ff6b35;
+ }
+ h1, h2, h3, h4 {
+ font-weight: 700;
+ letter-spacing: -0.5px;
+ text-transform: uppercase;
+ }
+ h1 {
+ font-size: 2.8rem;
+ line-height: 1.1;
+ color: #ff6b35;
+ text-shadow: 4px 4px 0 #1a1a1a;
+ margin-bottom: 1rem;
+ }
+ h2 {
+ font-size: 2rem;
+ color: #ffaa00;
+ border-left: 6px solid #ff6b35;
+ padding-left: 1rem;
+ margin: 2rem 0 1.5rem;
+ }
+ p {
+ margin-bottom: 1.2rem;
+ font-size: 1.05rem;
+ }
+ header {
+ background: #1a1a1a;
+ padding: 1rem 2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 4px solid #ff6b35;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+ .logo {
+ font-size: 1.8rem;
+ font-weight: 900;
+ color: #ff6b35;
+ text-transform: uppercase;
+ letter-spacing: -1px;
+ }
+ .logo span {
+ color: #d4d4d4;
+ font-size: 0.9rem;
+ display: block;
+ letter-spacing: 2px;
+ }
+ nav {
+ display: flex;
+ gap: 1.5rem;
+ align-items: center;
+ }
+ nav a {
+ color: #d4d4d4;
+ font-size: 0.95rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ padding: 0.3rem 0;
+ border-bottom: 2px solid transparent;
+ }
+ nav a:hover {
+ color: #ffaa00;
+ border-bottom-color: #ff6b35;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ }
+ .hamburger span {
+ width: 30px;
+ height: 3px;
+ background: #ff6b35;
+ transition: all 0.3s;
+ }
+ .container {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 2rem;
+ position: relative;
+ z-index: 2;
+ }
+ .hero {
+ background: #1a1a1a;
+ padding: 3rem 2rem;
+ border: 4px solid #ff6b35;
+ margin-bottom: 3rem;
+ position: relative;
+ }
+ .hero::after {
+ content: '▼ INFO';
+ position: absolute;
+ bottom: -1.5rem;
+ right: 2rem;
+ background: #ff6b35;
+ color: #1a1a1a;
+ padding: 0.3rem 1rem;
+ font-weight: 900;
+ font-size: 0.8rem;
+ letter-spacing: 2px;
+ }
+ .info-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 2rem;
+ margin: 2rem 0;
+ }
+ .info-card {
+ background: #1a1a1a;
+ border: 3px solid #333;
+ padding: 1.5rem;
+ transition: border-color 0.3s;
+ }
+ .info-card:hover {
+ border-color: #ff6b35;
+ }
+ .info-card h3 {
+ color: #ffaa00;
+ font-size: 1.3rem;
+ margin-bottom: 1rem;
+ border-bottom: 2px solid #333;
+ padding-bottom: 0.5rem;
+ }
+ .info-card .highlight {
+ color: #ff6b35;
+ font-weight: 700;
+ font-size: 1.2rem;
+ }
+ .tel-link {
+ display: inline-block;
+ background: #ff6b35;
+ color: #1a1a1a;
+ padding: 0.8rem 2rem;
+ font-weight: 900;
+ font-size: 1.3rem;
+ border: none;
+ cursor: pointer;
+ transition: all 0.2s;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ margin-top: 1rem;
+ }
+ .tel-link:hover {
+ background: #ffaa00;
+ transform: scale(1.02);
+ }
+ .faq-item {
+ background: #1a1a1a;
+ border: 2px solid #333;
+ padding: 1.2rem;
+ margin-bottom: 1rem;
+ }
+ .faq-item h4 {
+ color: #ffaa00;
+ font-size: 1.1rem;
+ cursor: pointer;
+ margin-bottom: 0.5rem;
+ }
+ .faq-item p {
+ color: #b0b0b0;
+ font-size: 0.95rem;
+ }
+ .review-block {
+ background: #1a1a1a;
+ border-left: 6px solid #ff6b35;
+ padding: 1.5rem;
+ margin: 1.5rem 0;
+ }
+ .review-block .name {
+ color: #ffaa00;
+ font-weight: 700;
+ }
+ .review-block .stars {
+ color: #ff6b35;
+ letter-spacing: 3px;
+ }
+ @media (max-width: 768px) {
+ header {
+ padding: 1rem;
+ }
+ .hamburger {
+ display: flex;
+ }
+ nav {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background: #1a1a1a;
+ flex-direction: column;
+ padding: 1rem;
+ border-bottom: 4px solid #ff6b35;
+ }
+ nav.active {
+ display: flex;
+ }
+ .info-grid {
+ grid-template-columns: 1fr;
+ }
+ h1 {
+ font-size: 2rem;
+ }
+ .container {
+ padding: 1rem;
+ }
+ .hero {
+ padding: 2rem 1rem;
+ }
+ }
+ footer {
+ background: #1a1a1a;
+ border-top: 4px solid #ff6b35;
+ padding: 2rem;
+ text-align: center;
+ margin-top: 3rem;
+ }
+ footer p {
+ font-size: 0.85rem;
+ color: #666;
+ }
+ </style>
+ <link rel="canonical" href="https://sf-t3-1779642675702-304.maphoshirts.xyz/about.html">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            MAPO SHIRTS
-            <span>AI TREND · STREET BRUTALIST</span>
-        </div>
-        <nav id="mainNav">
-            <a href="/">홈</a>
-            <a href="/info">정보</a>
-            <a href="/review">리뷰</a>
-            <a href="/gallery">갤러리</a>
-            <a href="/contact">연락처</a>
-        </nav>
-        <div class="hamburger" onclick="toggleNav()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </header>
+ <header>
+ <div class="logo">
+ MAPO SHIRTS
+ <span>AI TREND · STREET BRUTALIST</span>
+ </div>
+ <nav id="mainNav">
+ <a href="/">홈</a>
+ <a href="/info">정보</a>
+ <a href="/review">리뷰</a>
+ <a href="/gallery">갤러리</a>
+ <a href="/contact">연락처</a>
+ </nav>
+ <div class="hamburger" onclick="toggleNav()">
+ 
+ 
+ 
+ </div>
+ </header>
 
 <main class="container">
 <section class="hero">
@@ -380,7 +378,7 @@
 </div>
 </section>
 
-<p class="tel-link">문의: <a href="tel:01062790862">01062790862</a></p>
+<p class="tel-link">문의: </p>
 </main>
 
 
